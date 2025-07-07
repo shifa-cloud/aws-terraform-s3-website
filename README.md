@@ -9,11 +9,11 @@ A serverless static website deployed using Infrastructure-as-Code (IaC).
 ## Screenshot Proof  
 | Terraform Deployment | Live Website |  
 |----------------------|--------------|  
-| ![Terminal Output](Screenshots/terminal-apply.png) | ![Website](Screenshots/website-live.png) |  
+| ![Terminal Output](screenshots/terminal-apply.png) | ![Website](screenshots/website-live.png) |  
 
 | AWS S3 Console | Bucket Policy |  
 |----------------|---------------|  
-| ![S3 Console](Screenshots/s3-console.png) | ![Policy](Screenshots/bucket-policy.png) |  
+| ![S3 Console](screenshots/s3-console.png) | ![Policy](screenshots/bucket-policy.png) |  
 
 ## Files  
 - [`main.tf`](main.tf): Terraform configuration  

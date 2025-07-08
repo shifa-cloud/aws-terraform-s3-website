@@ -22,4 +22,9 @@ A serverless static website deployed using Infrastructure-as-Code (IaC).
 ## How to Replicate  
 ```bash
 terraform init  
-terraform apply  # Destroys with `terraform destroy`  
+terraform apply  # Destroys with `terraform destroy`
+
+## GDPR Considerations
+- Auto-deletion policies (`force_destroy = true`)  
+- No personal data processed  
+- Resources destroyed post-demo  
